@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<!-- booking page definition
+<record id="booking_page" model="website.page">
+        <field name="website_published">True</field>
+        <field name="url">/book-now</field>
+        <field name="view_id" ref="book_now"/>
+</record>
+
+ -->
+
+
+
+
+
+
+
+
+</odoo>

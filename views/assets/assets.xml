@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<!-- load style and javascript on Front-end -->
+ <template id="assets_frontend" inherit_id="website.assets_frontend" name="Uppercrust">
+    <xpath expr="/t[last()]" position="inside">
+		<!-- css file uploading -->
+		<link rel="stylesheet" type="text/css" href="/Booking_website/static/event-calendar-evo/evo-calendar/css/evo-calendar.css"/>
+		<link rel="stylesheet" type="text/css" href="/Booking_website/static/event-calendar-evo/evo-calendar/css/evo-calendar.midnight-blue.css"/>
+		<link rel="stylesheet" type="text/css" href="/Booking_website/static/event-calendar-evo/evo-calendar/css/evo-calendar.midnight-blue.min.css"/>
+		<link rel="stylesheet" type="text/css" href="/Booking_website/static/event-calendar-evo/evo-calendar/css/evo-calendar.min.css"/>
+		<link rel="stylesheet" type="text/css" href="/Booking_website/static/event-calendar-evo/evo-calendar/css/evo-calendar.orange-coral.css"/>
+		<link rel="stylesheet" type="text/css" href="/Booking_website/static/event-calendar-evo/evo-calendar/css/evo-calendar.orange-coral.min.css"/>
+		<link rel="stylesheet" type="text/css" href="/Booking_website/static/event-calendar-evo/evo-calendar/css/evo-calendar.royal-navy.css"/>
+		<link rel="stylesheet" type="text/css" href="/Booking_website/static/event-calendar-evo/evo-calendar/css/evo-calendar.royal-navy.min.css"/>
+		
+		
+		<!-- Javascript File loading -->
+		<script type="text/javascript" src="/Booking_website/static/event-calendar-evo/evo-calendar/js/evo-calendar.js"></script>
+		<script type="text/javascript" src="/Booking_website/static/event-calendar-evo/demo.js"></script>
+		
+		
+		
+		
+		
+	</xpath>
+</template>
+</odoo>

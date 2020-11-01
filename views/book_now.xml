@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<record id="book_now" model="ir.ui.view">
+        <field name="name">Book now</field>
+            <field name="type">qweb</field>
+            <field name="key">Booking_website.book_now</field>
+            <field name="arch" type="xml">
+                <t name="Book now" t-name="book_now">
+                    <t t-call="website.layout">
+					<!-- END t-call website Layout -->
+                        <div id="wrap">
+						 
+						 
+						 
+						 <div class="container">
+							
+								<div id="calendar"></div>
+						</div>
+						 
+						 
+						 
+						 
+			
+                        </div>
+					<!-- END t-call website Layout -->
+					</t>
+				</t>
+		</field>
+	</record>
+</odoo>
